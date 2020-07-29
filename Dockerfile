@@ -1,4 +1,4 @@
-FROM 'registry/nginx'
+FROM nginx
 WORKDIR '/app'
 COPY ./package.json .
 
