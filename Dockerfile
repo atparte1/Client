@@ -1,4 +1,4 @@
-FROM 'nginx:1.12'
+FROM 'registry/nginx:latest'
 WORKDIR '/app'
 COPY ./package.json .
 
